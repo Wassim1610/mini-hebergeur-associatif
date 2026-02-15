@@ -1,4 +1,4 @@
-<# Mini-Hébergeur Associatif — Guide Reproductible (BUT3)
+# Mini-Hébergeur Associatif — Guide Reproductible (BUT3)
 
 Stack :
 - Proxmox VE (cluster + virtualisation)
