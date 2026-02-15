@@ -104,7 +104,7 @@ curl http://10.0.12.11:5000/v2/_catalog
 Le diagramme de Gantt ci-dessous présente la planification globale du 
 projet sur la période **01/11/2025 → 08/01/2026**.
 
-![Diagramme de Gantt](../diagrams/Diagramme_Gantt copie.png)
+- PDF : [Diagramme de Gantt](../diagrams/Diagramme_Gantt copie.pdf)
 
 ### H)Topologie réseau
 Le schéma ci-dessous illustre l’architecture réseau finale 
