@@ -32,7 +32,7 @@ PC Admin 10.0.20.1 · Switch 10.0.20.2 · pfSense 10.0.20.6
 ### VLAN 30 — Stockage Ceph (10.0.30.8/29)
 10.0.30.11 · 10.0.30.12 · 10.0.30.13 · pfSense 10.0.30.14
 
-Guide public de déploiement d’un mini-hébergeur associatif basé sur :
+## Guide public de déploiement d’un mini-hébergeur associatif basé sur :
 - **Proxmox** (virtualisation) + **Ceph** (stockage distribué)
 - **Docker** + **K3s** (orchestration Kubernetes légère)
 - **Traefik** (reverse proxy) via K3s
