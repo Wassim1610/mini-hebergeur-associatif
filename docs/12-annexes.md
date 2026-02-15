@@ -98,33 +98,44 @@ curl http://10.0.12.11:5000/v2/_catalog
 
 ---
 
-## G) Scripts (répertoire `scripts/`)
-Scripts recommandés :
-- `install_docker.sh` : installer Docker (machine de build/registry)
-- `install_k3s_server.sh` : installer K3s server
-- `install_k3s_agent.sh` : installer K3s agent
-- `push_images.sh` : build + push vers registry local
-- `sanity_checks.sh` : checks rapides (cluster, pods, ceph)
+## G) Diagrammes
 
-> Les scripts doivent être documentés (objectif, prérequis, usage).
+### 12.1.1 Diagramme de Gantt
+Le diagramme de Gantt ci-dessous présente la planification globale du 
+projet sur la période **01/11/2025 → 08/01/2026**.
 
----
+![Diagramme de Gantt](../diagrams/gantt.png)
 
-## H) Diagrammes (répertoire `diagrams/`)
-- `reseau.png`
-- `architecture-logique.png`
-- `gantt.png`
+### H)Topologie réseau
+Le schéma ci-dessous illustre l’architecture réseau finale 
+(WAN/LAN/pfSense, trunk vers le switch, segmentation VLAN, nœuds K3s et 
+poste d’administration).
+
+![Topologie réseau](../diagrams/Topologie_Reseau.png)
 
 ---
 
-## I) Notes de publication (repo public)
-Avant publication :
-- supprimer tous mots de passe/secret
-- remplacer par `ChangeMe!`
-- vérifier l’historique git si des secrets ont été commit (sinon fuite 
-permanente)
+## I)Configurations (PDF)
+
+Les configurations sont fournies au format PDF pour garantir la 
+lisibilité et conserver une version “référence” stable.
+
+### J)Configuration du switch
+- PDF : [Config switch](../configs/switch/Config_switch.pdf)
+
+### K)Configuration Docker & K3s
+- PDF : [Config Docker & K3s](../configs/k3s/Config_Docker_K3s.pdf)
 
 ---
+
+## L)Références rapides
+
+- Diagrammes :
+  - `diagrams/gantt.png`
+  - `diagrams/Topologie_Reseau.png`
+- Configurations :
+  - `configs/switch/Config_switch.pdf`
+  - `configs/k3s/Config_Docker_K3s.pdf`
 
 ## Fin
 Ces annexes complètent les chapitres principaux sans alourdir le guide, 
