@@ -58,6 +58,3 @@ La documentation complète est dans `docs/` :
 ## Diagrammes & configurations
 - Diagrammes : `diagrams/`
 - Configurations : `configs/`
-
-## Licence
-Voir [LICENSE](LICENSE).
