@@ -32,15 +32,32 @@ PC Admin 10.0.20.1 · Switch 10.0.20.2 · pfSense 10.0.20.6
 ### VLAN 30 — Stockage Ceph (10.0.30.8/29)
 10.0.30.11 · 10.0.30.12 · 10.0.30.13 · pfSense 10.0.30.14
 
-## Parcours du guide (linéaire)
-1. docs/00-overview.md
-2. docs/01-prerequis.md
-3. docs/03-reseau-vlans.md
-4. docs/04-proxmox-cluster.md
-5. docs/05-stockage-ceph.md
-6. docs/06-k3s.md
-7. docs/08-deploiement-app.md
-8. docs/10-tests-validation.md
-9. docs/09-securite.md
-10. docs/11-troubleshooting.md
+Guide public de déploiement d’un mini-hébergeur associatif basé sur :
+- **Proxmox** (virtualisation) + **Ceph** (stockage distribué)
+- **Docker** + **K3s** (orchestration Kubernetes légère)
+- **Traefik** (reverse proxy) via K3s
+- **pfSense** (pare-feu, routage inter-VLAN)
 
+## Documentation (pas à pas)
+La documentation complète est dans `docs/` :
+
+1. [Vue d’ensemble](docs/00-overview.md)  
+2. [Prérequis](docs/01-prerequis.md)  
+3. [Architecture](docs/02-architecture.md)  
+4. [Réseau & VLANs](docs/03-reseau-vlans.md)  
+5. [Cluster Proxmox](docs/04-proxmox-cluster.md)  
+6. [Stockage Ceph](docs/05-stockage-ceph.md)  
+7. [K3s](docs/06-k3s.md)  
+8. [Registry Docker](docs/07-docker-registry.md)  
+9. [Déploiement applicatif](docs/08-deploiement-app.md)  
+10. [Sécurité](docs/09-securite.md)  
+11. [Tests & validation](docs/10-tests-validation.md)  
+12. [Troubleshooting](docs/11-troubleshooting.md)  
+13. [Annexes (diagrammes + configs)](docs/12-annexes.md)
+
+## Diagrammes & configurations
+- Diagrammes : `diagrams/`
+- Configurations : `configs/`
+
+## Licence
+Voir [LICENSE](LICENSE).
