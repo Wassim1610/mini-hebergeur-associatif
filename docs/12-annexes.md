@@ -131,7 +131,7 @@ lisibilité et conserver une version “référence” stable.
 ## L)Références rapides
 
 - Diagrammes :
-  - `diagrams/gantt.png`
+  - `diagrams/Diagramme_Gantt copie.png`
   - `diagrams/Topologie_Reseau.png`
 - Configurations :
   - `configs/switch/Config_switch.pdf`
